@@ -1,8 +1,138 @@
+<!--Uses each of the following structural HTML5 tags: <p>, <header>, <footer>, <main>, <article>. If you need to review any of these tags, check out the HTML tag reference at w3schools.
+
+Uses at least one <img> tag (hopefully more). When placing images in your page, put them in a new subfolder called images within your html-me-something directory.
+
+Uses at least one HTML entity. Hint: putting a copyright notice in your footer will afford you the opportunity to use &copy;, but you should also try to get creative here.
+
+Demonstrates creativity. Don’t stop with these items or tags. Have some ideas for your page, and make it great. And dig into the w3schools HTML reference to learn more about other tags, their usage and attributes!
+
+-->
 <!DOCTYPE html>
 <html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Us.</title>
+    <link rel="icon" href="images/3113901.png" />
+  </head>
+
+  <body>
+    <!-- Write your HTML in this file! -->
+    <header id="mainHeading">
+      <div class="container">
+        <h1>Us.</h1>
+        <nav class="topnav">
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#beginning">The Beginning</a></li>
+            <li><a href="#theGuy">The Guy</a></li>
+            <li><a href="#theFuture">The Future</a></li>
+            <li><a href="gallery.html">The Gallery</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <figure>
+          <img
+            src="images/Photo Nov 27 2022, 4 54 23 PM.jpeg"
+            alt="A photo of a couple smiling at a sporting event. The person on the left is flipping off the camera."
+          />
+        </figure>
+        <section id="beginning">
+          <h2>The Beginning</h2>
+          <figure>
+            <img
+              src="images/52EB043A-B617-493F-86BE-4B6E54D9BEEF-395B868B-42FE-410F-8F5F-559D4A292E21.jpg"
+              alt="A photo of a couple smiling at a restaurant. They sit closely together and smile at the camera."
+            />
+          </figure>
+          <p>
+            My partner and I met in August of 2022. We decided to meet up in
+            person after having messaged on the dating app<a
+              href="https://hinge.co/"
+            >
+              Hinge
+            </a>
+            for a couple of weeks. Our conversations on Hinge had come so
+            naturally, it was a pleasant change. We hit it off, bonding over our
+            mutual nerdiness and devotion to the fandoms we loved.
+          </p>
+        </section>
+        <section id="theGuy">
+          <h2>The Guy</h2>
+          <figure>
+            <img
+              class="imageToResize"
+              src="images/IMG_3598.jpg"
+              alt="A photo of a couple smiling at a restaurant. They sit closely together and smile at the camera."
+            />
+          </figure>
+          <p>
+            Christian grew up in a rural Missouri town after his family moved
+            there from Houston, Texas. He’s got a big loving family that has
+            welcomed me in warmly. He is a fantastic uncle to his many nieces
+            and nephews. He and his brother-in-law run a business called Beskar
+            Books, selling comic books. He enjoys playing music, and has a
+            beautiful voice. He is also quite skilled at video games--in
+            particular, a game called Destiny.
+          </p>
+        </section>
+        <section id="theCouple">
+          <h2>The Couple</h2>
+          <figure>
+            <img
+              class="imageToResize"
+              src="images/Photo Nov 01 2022, 7 47 33 PM.jpg"
+              alt="A photo of a couple standing (posing) in front of a convenience store looking outrageously cool."
+            />
+          </figure>
+          <p>
+            Our relationship has been incredibly rewarding thus far. We grow and
+            learn together, and it’s wonderful to feel safe and secure in doing
+            so. Though we have many hobbies and activities we enjoy, probably
+            our favorite thing to do is to stay in and watch movies, tv, and/or
+            youtube. We are especially fond of the
+            <a href="https://www.youtube.com/@CorridorCrew"> Corridor Crew </a>
+            youtube channel, and look forward to watching the latest video on
+            Saturday mornings. Outside of that we enjoy watching sports, and go
+            to games when we can. Now that football season is over, we have
+            transitioned into baseball. We try to travel when we can squeeze a
+            quick trip in and have fun exploring new places together.
+          </p>
+        </section>
+        <section id="theFuture">
+          <h2>The Future</h2>
+          <figure>
+            <img
+              class="imageToResize"
+              src="images/Photo Mar 11 2023, 12 52 58 PM.jpg"
+              alt="A photo of a couples legs. They are riding on a train and have made their boots connect, sole to sole on the rail while sitting on the observation deck."
+            />
+          </figure>
+          <p>
+            Our relationship is still new, but we work hard on communication and
+            showing up for each other. That has played a huge role in our
+            happiness. I’m looking forward to what the future holds for us. We
+            are planning to move into a place with my best friend, Cecile, in a
+            couple of months. I am especially looking forward to paddle boarding
+            and camping trips this summer. I am grateful on a daily basis for
+            our relationship, and I am very happy that we met at this time in
+            our lives.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <section id="gallery">
+        <h4 id="mainHeading">Enter the Portal to Our Lives</h4>
+        <p class="funParagraph" id="testP">
+          If you would like to see more of our adventures, check out the
+          <a href="gallery.html"> gallery</a>
+        </p>
+        <h6>&copy; ATUR 2023</h6>
+      </section>
+    </footer>
+  </body>
 </html>
